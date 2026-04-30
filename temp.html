@@ -1094,47 +1094,30 @@
       w3.includeHTML();
     </script>
 
+   
     <script>
-      var swiper = new Swiper(".mySwiper", {
-        slidesPerView: 1,
-        spaceBetween: 20,
-        loop: true,
-        autoplay: {
-          delay: 3000,
-          disableOnInteraction: false,
-        },
-        pagination: {
-          el: ".swiper-pagination",
-          clickable: true,
-        },
-        navigation: {
-          nextEl: ".swiper-button-next",
-          prevEl: ".swiper-button-prev",
-        },
-        breakpoints: {
-          640: { slidesPerView: 2 },
-          1024: { slidesPerView: 4 },
-        },
-      });
-
-      document.addEventListener("DOMContentLoaded", () => {
-        document.querySelectorAll(".team-bio").forEach((bio) => {
-          const toggle = bio.nextElementSibling;
-
-          if (!toggle) return;
-
-          if (bio.scrollHeight > bio.clientHeight) {
-            toggle.classList.remove("hidden");
-          }
-
-          toggle.addEventListener("click", () => {
-            const isClamped = bio.classList.contains("line-clamp-2");
-
-            bio.classList.toggle("line-clamp-2");
-            toggle.textContent = isClamped ? "Read less" : "Read more";
-          });
-        });
-      });
-    </script>
+  var swiper = new Swiper(".mySwiper", {
+    slidesPerView: 1,
+    spaceBetween: 20,
+    loop: true,
+    autoplay: {
+      delay: 3000,
+      disableOnInteraction: false,
+      pauseOnMouseEnter: true
+    },
+    pagination: {
+      el: ".swiper-pagination",
+      clickable: true,
+    },
+    navigation: {
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev",
+    },
+    breakpoints: {
+      640: { slidesPerView: 2 },
+      1024: { slidesPerView: 4 },
+    },
+  });
+</script>
   </body>
 </html>
