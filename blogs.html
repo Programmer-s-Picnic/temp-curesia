@@ -1,1869 +1,850 @@
+ 
 <!doctype html>
 <html lang="en-US">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title></title>
-    <meta name="robots" content="max-image-preview:large" />
-    <link rel="dns-prefetch" href="//fonts.googleapis.com" />
-    <link rel="dns-prefetch" href="//www.googletagmanager.com" />
-    <link
-      rel="alternate"
-      type="application/rss+xml"
-      title=" &raquo; Feed"
-      href="https://blog.curesiahealth.com/feed/"
-    />
-    <link
-      rel="alternate"
-      type="application/rss+xml"
-      title=" &raquo; Comments Feed"
-      href="https://blog.curesiahealth.com/comments/feed/"
-    />
-    <style id="wp-img-auto-sizes-contain-inline-css" type="text/css">
-      img:is([sizes="auto" i], [sizes^="auto," i]) {
-        contain-intrinsic-size: 3000px 1500px;
-      }
-      /*# sourceURL=wp-img-auto-sizes-contain-inline-css */
-    </style>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <style id="wp-emoji-styles-inline-css" type="text/css">
-      img.wp-smiley,
-      img.emoji {
-        display: inline !important;
-        border: none !important;
-        box-shadow: none !important;
-        height: 1em !important;
-        width: 1em !important;
-        margin: 0 0.07em !important;
-        vertical-align: -0.1em !important;
-        background: none !important;
-        padding: 0 !important;
-      }
-      /*# sourceURL=wp-emoji-styles-inline-css */
-    </style>
-    <link
-      rel="stylesheet"
-      id="wp-block-library-css"
-      href="https://blog.curesiahealth.com/wp-includes/css/dist/block-library/style.min.css?ver=6.9.4"
-      type="text/css"
-      media="all"
-    />
+  <title>Curesia Blog | Mental Health Articles</title>
+  <meta name="description" content="Self-contained Curesia blog page with full articles on stress, exams, mental health, stigma, and emotional wellness." />
+  <meta name="theme-color" content="#245b33" />
 
-    <style id="wp-block-heading-inline-css" type="text/css">
-      h1:where(.wp-block-heading).has-background,
-      h2:where(.wp-block-heading).has-background,
-      h3:where(.wp-block-heading).has-background,
-      h4:where(.wp-block-heading).has-background,
-      h5:where(.wp-block-heading).has-background,
-      h6:where(.wp-block-heading).has-background {
-        padding: 1.25em 2.375em;
-      }
-      h1.has-text-align-left[style*="writing-mode"]:where(
-          [style*="vertical-lr"]
-        ),
-      h1.has-text-align-right[style*="writing-mode"]:where(
-          [style*="vertical-rl"]
-        ),
-      h2.has-text-align-left[style*="writing-mode"]:where(
-          [style*="vertical-lr"]
-        ),
-      h2.has-text-align-right[style*="writing-mode"]:where(
-          [style*="vertical-rl"]
-        ),
-      h3.has-text-align-left[style*="writing-mode"]:where(
-          [style*="vertical-lr"]
-        ),
-      h3.has-text-align-right[style*="writing-mode"]:where(
-          [style*="vertical-rl"]
-        ),
-      h4.has-text-align-left[style*="writing-mode"]:where(
-          [style*="vertical-lr"]
-        ),
-      h4.has-text-align-right[style*="writing-mode"]:where(
-          [style*="vertical-rl"]
-        ),
-      h5.has-text-align-left[style*="writing-mode"]:where(
-          [style*="vertical-lr"]
-        ),
-      h5.has-text-align-right[style*="writing-mode"]:where(
-          [style*="vertical-rl"]
-        ),
-      h6.has-text-align-left[style*="writing-mode"]:where(
-          [style*="vertical-lr"]
-        ),
-      h6.has-text-align-right[style*="writing-mode"]:where(
-          [style*="vertical-rl"]
-        ) {
-        rotate: 180deg;
-      }
-      /*# sourceURL=https://blog.curesiahealth.com/wp-includes/blocks/heading/style.min.css */
-    </style>
-    <style id="wp-block-latest-comments-inline-css" type="text/css">
-      ol.wp-block-latest-comments {
-        box-sizing: border-box;
-        margin-left: 0;
-      }
-      :where(
-        .wp-block-latest-comments:not(
-          [style*="line-height"] .wp-block-latest-comments__comment
-        )
-      ) {
-        line-height: 1.1;
-      }
-      :where(
-        .wp-block-latest-comments:not(
-          [style*="line-height"] .wp-block-latest-comments__comment-excerpt p
-        )
-      ) {
-        line-height: 1.8;
-      }
-      .has-dates :where(.wp-block-latest-comments:not([style*="line-height"])),
-      .has-excerpts
-        :where(.wp-block-latest-comments:not([style*="line-height"])) {
-        line-height: 1.5;
-      }
-      .wp-block-latest-comments .wp-block-latest-comments {
-        padding-left: 0;
-      }
-      .wp-block-latest-comments__comment {
-        list-style: none;
-        margin-bottom: 1em;
-      }
-      .has-avatars .wp-block-latest-comments__comment {
-        list-style: none;
-        min-height: 2.25em;
-      }
-      .has-avatars
-        .wp-block-latest-comments__comment
-        .wp-block-latest-comments__comment-excerpt,
-      .has-avatars
-        .wp-block-latest-comments__comment
-        .wp-block-latest-comments__comment-meta {
-        margin-left: 3.25em;
-      }
-      .wp-block-latest-comments__comment-excerpt p {
-        font-size: 0.875em;
-        margin: 0.36em 0 1.4em;
-      }
-      .wp-block-latest-comments__comment-date {
-        display: block;
-        font-size: 0.75em;
-      }
-      .wp-block-latest-comments .avatar,
-      .wp-block-latest-comments__comment-avatar {
-        border-radius: 1.5em;
-        display: block;
-        float: left;
-        height: 2.5em;
-        margin-right: 0.75em;
-        width: 2.5em;
-      }
-      .wp-block-latest-comments[class*="-font-size"] a,
-      .wp-block-latest-comments[style*="font-size"] a {
-        font-size: inherit;
-      }
-      /*# sourceURL=https://blog.curesiahealth.com/wp-includes/blocks/latest-comments/style.min.css */
-    </style>
-    <style id="wp-block-latest-posts-inline-css" type="text/css">
-      .wp-block-latest-posts {
-        box-sizing: border-box;
-      }
-      .wp-block-latest-posts.alignleft {
-        margin-right: 2em;
-      }
-      .wp-block-latest-posts.alignright {
-        margin-left: 2em;
-      }
-      .wp-block-latest-posts.wp-block-latest-posts__list {
-        list-style: none;
-      }
-      .wp-block-latest-posts.wp-block-latest-posts__list li {
-        clear: both;
-        overflow-wrap: break-word;
-      }
-      .wp-block-latest-posts.is-grid {
-        display: flex;
-        flex-wrap: wrap;
-      }
-      .wp-block-latest-posts.is-grid li {
-        margin: 0 1.25em 1.25em 0;
-        width: 100%;
-      }
-      @media (min-width: 600px) {
-        .wp-block-latest-posts.columns-2 li {
-          width: calc(50% - 0.625em);
-        }
-        .wp-block-latest-posts.columns-2 li:nth-child(2n) {
-          margin-right: 0;
-        }
-        .wp-block-latest-posts.columns-3 li {
-          width: calc(33.33333% - 0.83333em);
-        }
-        .wp-block-latest-posts.columns-3 li:nth-child(3n) {
-          margin-right: 0;
-        }
-        .wp-block-latest-posts.columns-4 li {
-          width: calc(25% - 0.9375em);
-        }
-        .wp-block-latest-posts.columns-4 li:nth-child(4n) {
-          margin-right: 0;
-        }
-        .wp-block-latest-posts.columns-5 li {
-          width: calc(20% - 1em);
-        }
-        .wp-block-latest-posts.columns-5 li:nth-child(5n) {
-          margin-right: 0;
-        }
-        .wp-block-latest-posts.columns-6 li {
-          width: calc(16.66667% - 1.04167em);
-        }
-        .wp-block-latest-posts.columns-6 li:nth-child(6n) {
-          margin-right: 0;
-        }
-      }
-      :root :where(.wp-block-latest-posts.is-grid) {
-        padding: 0;
-      }
-      :root :where(.wp-block-latest-posts.wp-block-latest-posts__list) {
-        padding-left: 0;
-      }
-      .wp-block-latest-posts__post-author,
-      .wp-block-latest-posts__post-date {
-        display: block;
-        font-size: 0.8125em;
-      }
-      .wp-block-latest-posts__post-excerpt,
-      .wp-block-latest-posts__post-full-content {
-        margin-bottom: 1em;
-        margin-top: 0.5em;
-      }
-      .wp-block-latest-posts__featured-image a {
-        display: inline-block;
-      }
-      .wp-block-latest-posts__featured-image img {
-        height: auto;
-        max-width: 100%;
-        width: auto;
-      }
-      .wp-block-latest-posts__featured-image.alignleft {
-        float: left;
-        margin-right: 1em;
-      }
-      .wp-block-latest-posts__featured-image.alignright {
-        float: right;
-        margin-left: 1em;
-      }
-      .wp-block-latest-posts__featured-image.aligncenter {
-        margin-bottom: 1em;
-        text-align: center;
-      }
-      /*# sourceURL=https://blog.curesiahealth.com/wp-includes/blocks/latest-posts/style.min.css */
-    </style>
-    <style id="wp-block-search-inline-css" type="text/css">
-      .wp-block-search__button {
-        margin-left: 10px;
-        word-break: normal;
-      }
-      .wp-block-search__button.has-icon {
-        line-height: 0;
-      }
-      .wp-block-search__button svg {
-        height: 1.25em;
-        min-height: 24px;
-        min-width: 24px;
-        width: 1.25em;
-        fill: currentColor;
-        vertical-align: text-bottom;
-      }
-      :where(.wp-block-search__button) {
-        border: 1px solid #ccc;
-        padding: 6px 10px;
-      }
-      .wp-block-search__inside-wrapper {
-        display: flex;
-        flex: auto;
-        flex-wrap: nowrap;
-        max-width: 100%;
-      }
-      .wp-block-search__label {
-        width: 100%;
-      }
-      .wp-block-search.wp-block-search__button-only .wp-block-search__button {
-        box-sizing: border-box;
-        display: flex;
-        flex-shrink: 0;
-        justify-content: center;
-        margin-left: 0;
-        max-width: 100%;
-      }
-      .wp-block-search.wp-block-search__button-only
-        .wp-block-search__inside-wrapper {
-        min-width: 0 !important;
-        transition-property: width;
-      }
-      .wp-block-search.wp-block-search__button-only .wp-block-search__input {
-        flex-basis: 100%;
-        transition-duration: 0.3s;
-      }
-      .wp-block-search.wp-block-search__button-only.wp-block-search__searchfield-hidden,
-      .wp-block-search.wp-block-search__button-only.wp-block-search__searchfield-hidden
-        .wp-block-search__inside-wrapper {
-        overflow: hidden;
-      }
-      .wp-block-search.wp-block-search__button-only.wp-block-search__searchfield-hidden
-        .wp-block-search__input {
-        border-left-width: 0 !important;
-        border-right-width: 0 !important;
-        flex-basis: 0;
-        flex-grow: 0;
-        margin: 0;
-        min-width: 0 !important;
-        padding-left: 0 !important;
-        padding-right: 0 !important;
-        width: 0 !important;
-      }
-      :where(.wp-block-search__input) {
-        appearance: none;
-        border: 1px solid #949494;
-        flex-grow: 1;
-        font-family: inherit;
-        font-size: inherit;
-        font-style: inherit;
-        font-weight: inherit;
-        letter-spacing: inherit;
-        line-height: inherit;
-        margin-left: 0;
-        margin-right: 0;
-        min-width: 3rem;
-        padding: 8px;
-        text-decoration: unset !important;
-        text-transform: inherit;
-      }
-      :where(.wp-block-search__button-inside .wp-block-search__inside-wrapper) {
-        background-color: #fff;
-        border: 1px solid #949494;
-        box-sizing: border-box;
-        padding: 4px;
-      }
-      :where(.wp-block-search__button-inside .wp-block-search__inside-wrapper)
-        .wp-block-search__input {
-        border: none;
-        border-radius: 0;
-        padding: 0 4px;
-      }
-      :where(.wp-block-search__button-inside .wp-block-search__inside-wrapper)
-        .wp-block-search__input:focus {
-        outline: none;
-      }
-      :where(.wp-block-search__button-inside .wp-block-search__inside-wrapper)
-        :where(.wp-block-search__button) {
-        padding: 4px 8px;
-      }
-      .wp-block-search.aligncenter .wp-block-search__inside-wrapper {
-        margin: auto;
-      }
-      .wp-block[data-align="right"]
-        .wp-block-search.wp-block-search__button-only
-        .wp-block-search__inside-wrapper {
-        float: right;
-      }
-      /*# sourceURL=https://blog.curesiahealth.com/wp-includes/blocks/search/style.min.css */
-    </style>
-    <style id="wp-block-search-theme-inline-css" type="text/css">
-      .wp-block-search .wp-block-search__label {
-        font-weight: 700;
-      }
-      .wp-block-search__button {
-        border: 1px solid #ccc;
-        padding: 0.375em 0.625em;
-      }
-      /*# sourceURL=https://blog.curesiahealth.com/wp-includes/blocks/search/theme.min.css */
-    </style>
-    <style id="wp-block-group-inline-css" type="text/css">
-      .wp-block-group {
-        box-sizing: border-box;
-      }
-      :where(.wp-block-group.wp-block-group-is-layout-constrained) {
-        position: relative;
-      }
-      /*# sourceURL=https://blog.curesiahealth.com/wp-includes/blocks/group/style.min.css */
-    </style>
-    <style id="wp-block-group-theme-inline-css" type="text/css">
-      :where(.wp-block-group.has-background) {
-        padding: 1.25em 2.375em;
-      }
-      /*# sourceURL=https://blog.curesiahealth.com/wp-includes/blocks/group/theme.min.css */
-    </style>
-    <style id="wp-block-paragraph-inline-css" type="text/css">
-      .is-small-text {
-        font-size: 0.875em;
-      }
-      .is-regular-text {
-        font-size: 1em;
-      }
-      .is-large-text {
-        font-size: 2.25em;
-      }
-      .is-larger-text {
-        font-size: 3em;
-      }
-      .has-drop-cap:not(:focus):first-letter {
-        float: left;
-        font-size: 8.4em;
-        font-style: normal;
-        font-weight: 100;
-        line-height: 0.68;
-        margin: 0.05em 0.1em 0 0;
-        text-transform: uppercase;
-      }
-      body.rtl .has-drop-cap:not(:focus):first-letter {
-        float: none;
-        margin-left: 0.1em;
-      }
-      p.has-drop-cap.has-background {
-        overflow: hidden;
-      }
-      :root :where(p.has-background) {
-        padding: 1.25em 2.375em;
-      }
-      :where(p.has-text-color:not(.has-link-color)) a {
-        color: inherit;
-      }
-      p.has-text-align-left[style*="writing-mode:vertical-lr"],
-      p.has-text-align-right[style*="writing-mode:vertical-rl"] {
-        rotate: 180deg;
-      }
-      /*# sourceURL=https://blog.curesiahealth.com/wp-includes/blocks/paragraph/style.min.css */
-    </style>
+  <link rel="icon" href="https://blog.curesiahealth.com/wp-content/uploads/2026/01/cropped-curesia-logo-32x32.png" sizes="32x32" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Work+Sans:wght@600;700;800;900&display=swap" rel="stylesheet" />
 
-    <style id="classic-theme-styles-inline-css" type="text/css">
-      /*! This file is auto-generated */
-      .wp-block-button__link {
-        color: #fff;
-        background-color: #32373c;
-        border-radius: 9999px;
-        box-shadow: none;
-        text-decoration: none;
-        padding: calc(0.667em + 2px) calc(1.333em + 2px);
-        font-size: 1.125em;
-      }
-      .wp-block-file__button {
-        background: #32373c;
-        color: #fff;
-        text-decoration: none;
-      }
-      /*# sourceURL=/wp-includes/css/classic-themes.min.css */
-    </style>
-    <style id="global-styles-inline-css" type="text/css">
-      :root {
-        --wp--preset--aspect-ratio--square: 1;
-        --wp--preset--aspect-ratio--4-3: 4/3;
-        --wp--preset--aspect-ratio--3-4: 3/4;
-        --wp--preset--aspect-ratio--3-2: 3/2;
-        --wp--preset--aspect-ratio--2-3: 2/3;
-        --wp--preset--aspect-ratio--16-9: 16/9;
-        --wp--preset--aspect-ratio--9-16: 9/16;
-        --wp--preset--color--black: #000000;
-        --wp--preset--color--cyan-bluish-gray: #abb8c3;
-        --wp--preset--color--white: #ffffff;
-        --wp--preset--color--pale-pink: #f78da7;
-        --wp--preset--color--vivid-red: #cf2e2e;
-        --wp--preset--color--luminous-vivid-orange: #ff6900;
-        --wp--preset--color--luminous-vivid-amber: #fcb900;
-        --wp--preset--color--light-green-cyan: #7bdcb5;
-        --wp--preset--color--vivid-green-cyan: #00d084;
-        --wp--preset--color--pale-cyan-blue: #8ed1fc;
-        --wp--preset--color--vivid-cyan-blue: #0693e3;
-        --wp--preset--color--vivid-purple: #9b51e0;
-        --wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(
-          135deg,
-          rgb(6, 147, 227) 0%,
-          rgb(155, 81, 224) 100%
-        );
-        --wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(
-          135deg,
-          rgb(122, 220, 180) 0%,
-          rgb(0, 208, 130) 100%
-        );
-        --wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(
-          135deg,
-          rgb(252, 185, 0) 0%,
-          rgb(255, 105, 0) 100%
-        );
-        --wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(
-          135deg,
-          rgb(255, 105, 0) 0%,
-          rgb(207, 46, 46) 100%
-        );
-        --wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(
-          135deg,
-          rgb(238, 238, 238) 0%,
-          rgb(169, 184, 195) 100%
-        );
-        --wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(
-          135deg,
-          rgb(74, 234, 220) 0%,
-          rgb(151, 120, 209) 20%,
-          rgb(207, 42, 186) 40%,
-          rgb(238, 44, 130) 60%,
-          rgb(251, 105, 98) 80%,
-          rgb(254, 248, 76) 100%
-        );
-        --wp--preset--gradient--blush-light-purple: linear-gradient(
-          135deg,
-          rgb(255, 206, 236) 0%,
-          rgb(152, 150, 240) 100%
-        );
-        --wp--preset--gradient--blush-bordeaux: linear-gradient(
-          135deg,
-          rgb(254, 205, 165) 0%,
-          rgb(254, 45, 45) 50%,
-          rgb(107, 0, 62) 100%
-        );
-        --wp--preset--gradient--luminous-dusk: linear-gradient(
-          135deg,
-          rgb(255, 203, 112) 0%,
-          rgb(199, 81, 192) 50%,
-          rgb(65, 88, 208) 100%
-        );
-        --wp--preset--gradient--pale-ocean: linear-gradient(
-          135deg,
-          rgb(255, 245, 203) 0%,
-          rgb(182, 227, 212) 50%,
-          rgb(51, 167, 181) 100%
-        );
-        --wp--preset--gradient--electric-grass: linear-gradient(
-          135deg,
-          rgb(202, 248, 128) 0%,
-          rgb(113, 206, 126) 100%
-        );
-        --wp--preset--gradient--midnight: linear-gradient(
-          135deg,
-          rgb(2, 3, 129) 0%,
-          rgb(40, 116, 252) 100%
-        );
-        --wp--preset--font-size--small: 13px;
-        --wp--preset--font-size--medium: 20px;
-        --wp--preset--font-size--large: 36px;
-        --wp--preset--font-size--x-large: 42px;
-        --wp--preset--spacing--20: 0.44rem;
-        --wp--preset--spacing--30: 0.67rem;
-        --wp--preset--spacing--40: 1rem;
-        --wp--preset--spacing--50: 1.5rem;
-        --wp--preset--spacing--60: 2.25rem;
-        --wp--preset--spacing--70: 3.38rem;
-        --wp--preset--spacing--80: 5.06rem;
-        --wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);
-        --wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);
-        --wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);
-        --wp--preset--shadow--outlined:
-          6px 6px 0px -3px rgb(255, 255, 255), 6px 6px rgb(0, 0, 0);
-        --wp--preset--shadow--crisp: 6px 6px 0px rgb(0, 0, 0);
-      }
-      :where(.is-layout-flex) {
-        gap: 0.5em;
-      }
-      :where(.is-layout-grid) {
-        gap: 0.5em;
-      }
-      body .is-layout-flex {
-        display: flex;
-      }
-      .is-layout-flex {
-        flex-wrap: wrap;
-        align-items: center;
-      }
-      .is-layout-flex > :is(*, div) {
-        margin: 0;
-      }
-      body .is-layout-grid {
-        display: grid;
-      }
-      .is-layout-grid > :is(*, div) {
-        margin: 0;
-      }
-      :where(.wp-block-columns.is-layout-flex) {
-        gap: 2em;
-      }
-      :where(.wp-block-columns.is-layout-grid) {
-        gap: 2em;
-      }
-      :where(.wp-block-post-template.is-layout-flex) {
-        gap: 1.25em;
-      }
-      :where(.wp-block-post-template.is-layout-grid) {
-        gap: 1.25em;
-      }
-      .has-black-color {
-        color: var(--wp--preset--color--black) !important;
-      }
-      .has-cyan-bluish-gray-color {
-        color: var(--wp--preset--color--cyan-bluish-gray) !important;
-      }
-      .has-white-color {
-        color: var(--wp--preset--color--white) !important;
-      }
-      .has-pale-pink-color {
-        color: var(--wp--preset--color--pale-pink) !important;
-      }
-      .has-vivid-red-color {
-        color: var(--wp--preset--color--vivid-red) !important;
-      }
-      .has-luminous-vivid-orange-color {
-        color: var(--wp--preset--color--luminous-vivid-orange) !important;
-      }
-      .has-luminous-vivid-amber-color {
-        color: var(--wp--preset--color--luminous-vivid-amber) !important;
-      }
-      .has-light-green-cyan-color {
-        color: var(--wp--preset--color--light-green-cyan) !important;
-      }
-      .has-vivid-green-cyan-color {
-        color: var(--wp--preset--color--vivid-green-cyan) !important;
-      }
-      .has-pale-cyan-blue-color {
-        color: var(--wp--preset--color--pale-cyan-blue) !important;
-      }
-      .has-vivid-cyan-blue-color {
-        color: var(--wp--preset--color--vivid-cyan-blue) !important;
-      }
-      .has-vivid-purple-color {
-        color: var(--wp--preset--color--vivid-purple) !important;
-      }
-      .has-black-background-color {
-        background-color: var(--wp--preset--color--black) !important;
-      }
-      .has-cyan-bluish-gray-background-color {
-        background-color: var(--wp--preset--color--cyan-bluish-gray) !important;
-      }
-      .has-white-background-color {
-        background-color: var(--wp--preset--color--white) !important;
-      }
-      .has-pale-pink-background-color {
-        background-color: var(--wp--preset--color--pale-pink) !important;
-      }
-      .has-vivid-red-background-color {
-        background-color: var(--wp--preset--color--vivid-red) !important;
-      }
-      .has-luminous-vivid-orange-background-color {
-        background-color: var(
-          --wp--preset--color--luminous-vivid-orange
-        ) !important;
-      }
-      .has-luminous-vivid-amber-background-color {
-        background-color: var(
-          --wp--preset--color--luminous-vivid-amber
-        ) !important;
-      }
-      .has-light-green-cyan-background-color {
-        background-color: var(--wp--preset--color--light-green-cyan) !important;
-      }
-      .has-vivid-green-cyan-background-color {
-        background-color: var(--wp--preset--color--vivid-green-cyan) !important;
-      }
-      .has-pale-cyan-blue-background-color {
-        background-color: var(--wp--preset--color--pale-cyan-blue) !important;
-      }
-      .has-vivid-cyan-blue-background-color {
-        background-color: var(--wp--preset--color--vivid-cyan-blue) !important;
-      }
-      .has-vivid-purple-background-color {
-        background-color: var(--wp--preset--color--vivid-purple) !important;
-      }
-      .has-black-border-color {
-        border-color: var(--wp--preset--color--black) !important;
-      }
-      .has-cyan-bluish-gray-border-color {
-        border-color: var(--wp--preset--color--cyan-bluish-gray) !important;
-      }
-      .has-white-border-color {
-        border-color: var(--wp--preset--color--white) !important;
-      }
-      .has-pale-pink-border-color {
-        border-color: var(--wp--preset--color--pale-pink) !important;
-      }
-      .has-vivid-red-border-color {
-        border-color: var(--wp--preset--color--vivid-red) !important;
-      }
-      .has-luminous-vivid-orange-border-color {
-        border-color: var(
-          --wp--preset--color--luminous-vivid-orange
-        ) !important;
-      }
-      .has-luminous-vivid-amber-border-color {
-        border-color: var(--wp--preset--color--luminous-vivid-amber) !important;
-      }
-      .has-light-green-cyan-border-color {
-        border-color: var(--wp--preset--color--light-green-cyan) !important;
-      }
-      .has-vivid-green-cyan-border-color {
-        border-color: var(--wp--preset--color--vivid-green-cyan) !important;
-      }
-      .has-pale-cyan-blue-border-color {
-        border-color: var(--wp--preset--color--pale-cyan-blue) !important;
-      }
-      .has-vivid-cyan-blue-border-color {
-        border-color: var(--wp--preset--color--vivid-cyan-blue) !important;
-      }
-      .has-vivid-purple-border-color {
-        border-color: var(--wp--preset--color--vivid-purple) !important;
-      }
-      .has-vivid-cyan-blue-to-vivid-purple-gradient-background {
-        background: var(
-          --wp--preset--gradient--vivid-cyan-blue-to-vivid-purple
-        ) !important;
-      }
-      .has-light-green-cyan-to-vivid-green-cyan-gradient-background {
-        background: var(
-          --wp--preset--gradient--light-green-cyan-to-vivid-green-cyan
-        ) !important;
-      }
-      .has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background {
-        background: var(
-          --wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange
-        ) !important;
-      }
-      .has-luminous-vivid-orange-to-vivid-red-gradient-background {
-        background: var(
-          --wp--preset--gradient--luminous-vivid-orange-to-vivid-red
-        ) !important;
-      }
-      .has-very-light-gray-to-cyan-bluish-gray-gradient-background {
-        background: var(
-          --wp--preset--gradient--very-light-gray-to-cyan-bluish-gray
-        ) !important;
-      }
-      .has-cool-to-warm-spectrum-gradient-background {
-        background: var(
-          --wp--preset--gradient--cool-to-warm-spectrum
-        ) !important;
-      }
-      .has-blush-light-purple-gradient-background {
-        background: var(--wp--preset--gradient--blush-light-purple) !important;
-      }
-      .has-blush-bordeaux-gradient-background {
-        background: var(--wp--preset--gradient--blush-bordeaux) !important;
-      }
-      .has-luminous-dusk-gradient-background {
-        background: var(--wp--preset--gradient--luminous-dusk) !important;
-      }
-      .has-pale-ocean-gradient-background {
-        background: var(--wp--preset--gradient--pale-ocean) !important;
-      }
-      .has-electric-grass-gradient-background {
-        background: var(--wp--preset--gradient--electric-grass) !important;
-      }
-      .has-midnight-gradient-background {
-        background: var(--wp--preset--gradient--midnight) !important;
-      }
-      .has-small-font-size {
-        font-size: var(--wp--preset--font-size--small) !important;
-      }
-      .has-medium-font-size {
-        font-size: var(--wp--preset--font-size--medium) !important;
-      }
-      .has-large-font-size {
-        font-size: var(--wp--preset--font-size--large) !important;
-      }
-      .has-x-large-font-size {
-        font-size: var(--wp--preset--font-size--x-large) !important;
-      }
-      /*# sourceURL=global-styles-inline-css */
-    </style>
+  <style>
+    :root {
+      --green: #245b33;
+      --green-dark: #173b22;
+      --green-soft: #eef8f1;
+      --text: #18241c;
+      --muted: #65736a;
+      --line: #dce8df;
+      --card: #ffffff;
+      --bg: #f7fbf8;
+      --shadow: 0 18px 45px rgba(36, 91, 51, 0.12);
+      --radius: 18px;
+      --max: 1180px;
+    }
 
-    <link
-      rel="stylesheet"
-      id="hostinger-reach-subscription-block-css"
-      href="https://blog.curesiahealth.com/wp-content/plugins/hostinger-reach/frontend/dist/blocks/subscription.css?ver=1771822822"
-      type="text/css"
-      media="all"
-    />
-    <link
-      rel="stylesheet"
-      id="bootstrap-css"
-      href="https://blog.curesiahealth.com/wp-content/themes/legacy-wellness-coach/css/bootstrap.min.css?ver=5.3.3"
-      type="text/css"
-      media="all"
-    />
-    <link
-      rel="stylesheet"
-      id="bootstrap-icons-css"
-      href="https://blog.curesiahealth.com/wp-content/themes/legacy-wellness-coach/css/bootstrap-icons.css?ver=5.3.3"
-      type="text/css"
-      media="all"
-    />
-    <link
-      rel="stylesheet"
-      id="legacy-wellness-coach-style-css"
-      href="https://blog.curesiahealth.com/wp-content/themes/legacy-wellness-coach/style.css?ver=1.9"
-      type="text/css"
-      media="all"
-    />
-    <style id="legacy-wellness-coach-style-inline-css" type="text/css">
-      :root {
-        --alpha-color: #245b33 !important;
-      }
-      /*# sourceURL=legacy-wellness-coach-style-inline-css */
-    </style>
-    <link
-      rel="stylesheet"
-      id="m-customscrollbar-css"
-      href="https://blog.curesiahealth.com/wp-content/themes/legacy-wellness-coach/css/jquery.mCustomScrollbar.css?ver=3.1.5"
-      type="text/css"
-      media="all"
-    />
-    <link
-      rel="stylesheet"
-      id="inter-google-fonts-css"
-      href="https://fonts.googleapis.com/css2?family=Inter%3Aital%2Copsz%2Cwght%400%2C14..32%2C100..900%3B1%2C14..32%2C100..900&#038;display=swap%22&#038;ver=1.0"
-      type="text/css"
-      media="all"
-    />
-    <link
-      rel="stylesheet"
-      id="work-sans-google-fonts-css"
-      href="https://fonts.googleapis.com/css2?family=Work+Sans%3Aital%2Cwght%400%2C100..900%3B1%2C100..900&#038;display=swap%22&#038;ver=1.0"
-      type="text/css"
-      media="all"
-    />
-    <link
-      rel="stylesheet"
-      id="owl-carousel-css-css"
-      href="https://blog.curesiahealth.com/wp-content/themes/legacy-wellness-coach/css/owl.carousel.css?ver=2.3.4"
-      type="text/css"
-      media="all"
-    />
-    <link
-      rel="stylesheet"
-      id="legacy-wellness-coach-block-style-css"
-      href="https://blog.curesiahealth.com/wp-content/themes/legacy-wellness-coach/css/blocks-styles.css?ver=1.0"
-      type="text/css"
-      media="all"
-    />
-    <link
-      rel="stylesheet"
-      id="legacy-wellness-coach-fonts-css"
-      href="https://fonts.googleapis.com/css2?family=Inter&#038;family=Work+Sans&#038;display=swap"
-      type="text/css"
-      media="all"
-    />
-    <style id="legacy-wellness-coach-fonts-inline-css" type="text/css">
-      body,
-      p,
-      span,
-      label,
-      div {
-        font-family: Inter, serif;
-      }
-      h1,
-      h2,
-      h3,
-      h4,
-      h5,
-      h6 {
-        font-family:
-          Work Sans,
-          serif;
+    * { box-sizing: border-box; }
+
+    html { scroll-behavior: smooth; }
+
+    body {
+      margin: 0;
+      font-family: Inter, Arial, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.7;
+    }
+
+    a { color: inherit; text-decoration: none; }
+    img { max-width: 100%; display: block; }
+
+    .container {
+      width: min(var(--max), calc(100% - 28px));
+      margin: auto;
+    }
+
+    .topbar {
+      background: #ffffff;
+      border-bottom: 1px solid var(--line);
+      position: sticky;
+      top: 0;
+      z-index: 20;
+      box-shadow: 0 8px 24px rgba(0,0,0,0.04);
+    }
+
+    .nav {
+      min-height: 86px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 24px;
+    }
+
+    .logo img {
+      width: 208px;
+      height: auto;
+    }
+
+    .menu {
+      display: flex;
+      gap: 12px;
+      flex-wrap: wrap;
+      align-items: center;
+    }
+
+    .menu a {
+      padding: 10px 16px;
+      border-radius: 8px;
+      font-weight: 800;
+      color: var(--green);
+    }
+
+    .menu a:hover { background: var(--green-soft); }
+
+    .btn,
+    .read-toggle {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 46px;
+      padding: 10px 28px;
+      border-radius: 6px;
+      border: 0;
+      cursor: pointer;
+      font-weight: 900;
+      background: lightgreen;
+      color: #ffffff;
+      transition: 0.2s ease;
+    }
+
+    .btn:hover,
+    .read-toggle:hover {
+      background: var(--green-dark);
+      transform: translateY(-1px);
+    }
+
+    .hero {
+      background:
+        radial-gradient(circle at top left, rgba(255,255,255,0.18), transparent 30%),
+        linear-gradient(135deg, var(--green), #2f7042);
+      color: #ffffff;
+      padding: 58px 0;
+    }
+
+    .hero h1 {
+      font-family: "Work Sans", sans-serif;
+      font-size: clamp(2.1rem, 5vw, 4rem);
+      line-height: 1.05;
+      margin: 0 0 14px;
+      letter-spacing: -0.04em;
+    }
+
+    .hero p {
+      max-width: 780px;
+      margin: 0;
+      font-size: 1.1rem;
+      color: rgba(255,255,255,0.9);
+    }
+
+    .content-wrap { padding: 44px 0; }
+
+    .layout {
+      display: grid;
+      grid-template-columns: minmax(0, 2fr) minmax(300px, 0.85fr);
+      gap: 34px;
+      align-items: start;
+    }
+
+    .blog-post {
+      background: var(--card);
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      overflow: hidden;
+      box-shadow: var(--shadow);
+      margin-bottom: 30px;
+    }
+
+    .blog-image { background: var(--green-soft); }
+
+    .blog-image img {
+      width: 100%;
+      height: auto;
+    }
+
+    .blog-content { padding: 26px; }
+
+    .meta {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 14px;
+      margin-bottom: 14px;
+      color: var(--muted);
+      font-weight: 700;
+      font-size: 0.92rem;
+    }
+
+    .entry-title {
+      font-family: "Work Sans", sans-serif;
+      font-size: clamp(1.45rem, 3vw, 2.1rem);
+      line-height: 1.16;
+      margin: 0 0 12px;
+      color: var(--green-dark);
+    }
+
+    .excerpt {
+      color: var(--muted);
+      margin-bottom: 18px;
+    }
+
+    .full-article {
+      display: none;
+      margin-top: 22px;
+      padding-top: 20px;
+      border-top: 1px solid var(--line);
+    }
+
+    .full-article.open { display: block; }
+
+    .full-article h3 {
+      font-family: "Work Sans", sans-serif;
+      color: var(--green-dark);
+      margin-top: 22px;
+      margin-bottom: 8px;
+    }
+
+    .full-article p,
+    .full-article li {
+      color: #35443a;
+    }
+
+    .full-article ul {
+      padding-left: 22px;
+    }
+
+    .note-box {
+      background: var(--green-soft);
+      border: 1px solid var(--line);
+      border-left: 5px solid var(--green);
+      border-radius: 12px;
+      padding: 16px;
+      margin: 18px 0;
+      color: var(--green-dark);
+      font-weight: 700;
+    }
+
+    .sidebar {
+      display: grid;
+      gap: 24px;
+    }
+
+    .widget {
+      background: var(--card);
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      box-shadow: var(--shadow);
+      padding: 24px;
+    }
+
+    .widget-title {
+      font-family: "Work Sans", sans-serif;
+      color: var(--green-dark);
+      margin: 0 0 16px;
+      font-size: 1.35rem;
+    }
+
+    .search-form {
+      display: flex;
+      gap: 10px;
+    }
+
+    .search-form input {
+      flex: 1;
+      min-height: 44px;
+      border-radius: 6px;
+      border: 1px solid var(--line);
+      padding: 0 12px;
+      font: inherit;
+    }
+
+    .search-form button {
+      border-radius: 6px;
+      border: 0;
+      background: var(--green);
+      color: white;
+      padding: 0 18px;
+      font-weight: 900;
+      cursor: pointer;
+    }
+
+    .widget ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      display: grid;
+      gap: 12px;
+    }
+
+    .widget li a {
+      color: var(--green);
+      font-weight: 800;
+    }
+
+    .tag-cloud {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+
+    .tag-cloud a {
+      padding: 8px 12px;
+      border-radius: 999px;
+      background: var(--green-soft);
+      color: var(--green);
+      border: 1px solid var(--line);
+      font-weight: 800;
+    }
+
+    .footer {
+      background: var(--green-dark);
+      color: #ffffff;
+      margin-top: 30px;
+    }
+
+    .footer-widgets { padding: 44px 0; }
+
+    .footer-grid {
+      display: grid;
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+      gap: 24px;
+    }
+
+    .footer h2 {
+      font-family: "Work Sans", sans-serif;
+      font-size: 1.18rem;
+      margin: 0 0 14px;
+    }
+
+    .footer ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      display: grid;
+      gap: 10px;
+    }
+
+    .footer a { color: rgba(255,255,255,0.86); }
+
+    .footer .tag-cloud a {
+      background: rgba(255,255,255,0.08);
+      border-color: rgba(255,255,255,0.15);
+      color: #ffffff;
+    }
+
+    .copyright {
+      border-top: 1px solid rgba(255,255,255,0.14);
+      padding: 18px 0;
+      text-align: center;
+      color: rgba(255,255,255,0.82);
+      font-size: 0.94rem;
+    }
+
+    .scrolltop {
+      position: fixed;
+      right: 18px;
+      bottom: 18px;
+      width: 44px;
+      height: 44px;
+      border-radius: 50%;
+      background: var(--green);
+      color: white;
+      display: grid;
+      place-items: center;
+      font-size: 22px;
+      font-weight: 900;
+      box-shadow: var(--shadow);
+    }
+
+    @media (max-width: 960px) {
+      .layout { grid-template-columns: 1fr; }
+      .footer-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+    }
+
+    @media (max-width: 640px) {
+      .nav {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 14px 0;
       }
 
-      /*# sourceURL=legacy-wellness-coach-fonts-inline-css */
-    </style>
-    <script
-      type="text/javascript"
-      src="https://blog.curesiahealth.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1"
-      id="jquery-core-js"
-    ></script>
-    <script
-      type="text/javascript"
-      src="https://blog.curesiahealth.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1"
-      id="jquery-migrate-js"
-    ></script>
-    <link
-      rel="https://api.w.org/"
-      href="https://blog.curesiahealth.com/wp-json/"
-    />
-    <link
-      rel="EditURI"
-      type="application/rsd+xml"
-      title="RSD"
-      href="https://blog.curesiahealth.com/xmlrpc.php?rsd"
-    />
-    <meta name="generator" content="WordPress 6.9.4" />
-    <meta name="generator" content="Site Kit by Google 1.172.0" />
-    <style type="text/css">
-      .logo .custom-logo {
-        max-width: 208px;
-        height: auto;
-      }
-    </style>
-    <style type="text/css">
-      .btn,
-      .button,
-      button,
-      input[type="submit"],
-      .wp-block-button__link,
-      #blog-section .read-more a,
-      .read-more a,
-      a.btn-slid.btn {
-        border-radius: 6px;
-        padding: 10px 35px;
-      }
-    </style>
-    <style type="text/css">
-      .page-title {
-        background-color: #245b33;
-      }
-    </style>
-    <link
-      rel="icon"
-      href="https://blog.curesiahealth.com/wp-content/uploads/2026/01/cropped-curesia-logo-32x32.png"
-      sizes="32x32"
-    />
-    <link
-      rel="icon"
-      href="https://blog.curesiahealth.com/wp-content/uploads/2026/01/cropped-curesia-logo-192x192.png"
-      sizes="192x192"
-    />
-    <link
-      rel="apple-touch-icon"
-      href="https://blog.curesiahealth.com/wp-content/uploads/2026/01/cropped-curesia-logo-180x180.png"
-    />
-    <meta
-      name="msapplication-TileImage"
-      content="https://blog.curesiahealth.com/wp-content/uploads/2026/01/cropped-curesia-logo-270x270.png"
-    />
-  </head>
+      .logo img { width: 180px; }
+      .menu { width: 100%; }
+      .menu a { padding: 8px 10px; }
+      .hero { padding: 40px 0; }
+      .blog-content, .widget { padding: 18px; }
+      .search-form { flex-direction: column; }
+      .search-form button { min-height: 44px; }
+      .footer-grid { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
 
-  <body
-    class="home blog wp-custom-logo wp-theme-legacy-wellness-coach at-sticky-sidebar hfeed"
-  >
-    <!-- header styles -->
-
-    <header
-      id="home-inner"
-      class="elementer-menu-anchor theme-menu-wrapper full-width-menu style1 page"
-      role="banner"
-    >
-      <a class="skip-link screen-reader-text" href="#content"
-        >skip to content
+<body id="top">
+  <header class="topbar">
+    <div class="container nav">
+      <a class="logo" href="https://curesiahealth.com">
+        <img src="assets/00fullLogo.png" />
       </a>
-      <div id="header-main" class="header-wrapper">
-        <div id="custom-header">
-          <div id="topbar">
-            <div class="container-fluid px-lg-4">
-              <div class="row py-4">
-                <div
-                  class="col-lg-3 col-md-3 col-5 align-self-center text-center text-lg-start text-md-start ri8-logo"
-                >
-                  <div
-                    class="logo has-logo"
-                    itemscope
-                    itemtype="https://schema.org/Organization"
-                  >
-                    <a
-                      href="https://blog.curesiahealth.com/"
-                      class="custom-logo-link"
-                      rel="home"
-                      aria-current="page"
-                      ><img
-                        width="1080"
-                        height="343"
-                        src="https://blog.curesiahealth.com/wp-content/uploads/2026/01/cropped-logo.png"
-                        class="custom-logo"
-                        alt=""
-                        decoding="async"
-                        fetchpriority="high"
-                        srcset="
-                          https://blog.curesiahealth.com/wp-content/uploads/2026/01/cropped-logo.png          1080w,
-                          https://blog.curesiahealth.com/wp-content/uploads/2026/01/cropped-logo-300x95.png    300w,
-                          https://blog.curesiahealth.com/wp-content/uploads/2026/01/cropped-logo-1024x325.png 1024w,
-                          https://blog.curesiahealth.com/wp-content/uploads/2026/01/cropped-logo-768x244.png   768w
-                        "
-                        sizes="(max-width: 1080px) 100vw, 1080px"
-                    /></a>
-                  </div>
-                </div>
-                <div
-                  class="col-lg-7 col-md-6 col-2 text-lg-end text-center text-md-center align-self-center"
-                >
-                  <div class="top-menu-wrapper">
-                    <div class="navigation_header">
-                      <div class="toggle-nav mobile-menu">
-                        <button onclick="legacy_wellness_coach_openNav()">
-                          <i class="bi bi-list"></i>
-                        </button>
-                      </div>
-                      <div id="mySidenav" class="nav sidenav">
-                        <nav
-                          id="site-navigation"
-                          class="main-navigation navbar navbar-expand-xl"
-                          aria-label="Top Menu"
-                        >
-                          <div class="navi clearfix navbar-nav">
-                            <ul id="menu-main-menu" class="menu clearfix">
-                              <li
-                                id="menu-item-19"
-                                class="menu-item menu-item-type-custom menu-item-object-custom menu-item-19"
-                              >
-                                <a href="https://curesiahealth.com/">Home</a>
-                              </li>
-                            </ul>
-                          </div>
-                        </nav>
-                        <a
-                          href="javascript:void(0)"
-                          class="closebtn mobile-menu"
-                          onclick="legacy_wellness_coach_closeNav()"
-                          ><i class="bi bi-x"></i
-                        ></a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-lg-2 col-md-3 col-5 align-self-center text-end">
-                  <div class="tbr-book-btn"></div>
-                </div>
+
+      <nav class="menu">
+        <a href="https://curesiahealth.com/">Home</a>
+        <a href="#articles">Blog</a>
+        <a href="https://curesiahealth.com/#services">Services</a>
+        <a href="https://curesiahealth.com/#contact">Contact</a>
+        <a class="btn" href="https://curesiahealth.com/#contact">Book Appointment</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="container">
+      <h1>Curesia Mental Health Blog</h1>
+      <p>
+        Full articles on stress, exams, emotional health, mental wellness,
+        counselling, awareness, and stigma-free mental health support.
+      </p>
+    </div>
+  </section>
+
+  <main class="content-wrap" id="articles">
+    <div class="container layout">
+      <section class="posts">
+
+        <article class="blog-post" id="stress-memory">
+          <div class="blog-image">
+            <img src="https://blog.curesiahealth.com/wp-content/uploads/2026/02/anxious-teenage-student-sitting-examination-in-school-hall.jpg" alt="Anxious teenage student sitting in examination hall" />
+          </div>
+
+          <div class="blog-content">
+            <div class="meta">
+              <span>By Curesia</span>
+              <span>February 21, 2026</span>
+              <span>Stress • Exams • Students</span>
+            </div>
+
+            <h2 class="entry-title">How Stress Affects Memory During Exams</h2>
+
+            <p class="excerpt">
+              Board exams do not just test knowledge; they test emotional control.
+              Many students say, “I studied everything, but I forgot it in the exam hall.”
+            </p>
+
+            <button class="read-toggle" type="button">READ FULL ARTICLE +</button>
+
+            <div class="full-article">
+              <p>
+                Exam stress is one of the most common emotional experiences among students.
+                A little stress can improve alertness, but too much stress can disturb memory,
+                attention, sleep, confidence, and performance.
+              </p>
+
+              <h3>Why memory gets affected during exams</h3>
+              <p>
+                When a student feels intense pressure, the body enters a stress response.
+                The heart may beat faster, breathing may become shallow, hands may sweat, and
+                the mind may start jumping from one thought to another. In this state, the brain
+                gives more importance to danger and less importance to calm recall.
+              </p>
+
+              <p>
+                This is why a student may know the answer at home but suddenly feel blank in the
+                examination hall. The knowledge has not disappeared. The mind is simply overloaded.
+              </p>
+
+              <h3>Common signs of exam stress</h3>
+              <ul>
+                <li>Forgetting answers despite studying well</li>
+                <li>Difficulty sleeping before the exam</li>
+                <li>Headache, stomach discomfort, or restlessness</li>
+                <li>Repeated fear of failure</li>
+                <li>Comparing marks with others</li>
+                <li>Feeling blank after reading the question paper</li>
+              </ul>
+
+              <h3>How students can support memory</h3>
+              <p>
+                The brain recalls better when it feels safe and organized. Students should revise in
+                small portions, practise writing answers, take short breaks, sleep properly, and avoid
+                last-minute panic learning.
+              </p>
+
+              <div class="note-box">
+                Before starting the paper, pause for 30 seconds. Breathe slowly. Read the question paper
+                once without panic. Start with the questions you know well.
               </div>
+
+              <h3>How parents can help</h3>
+              <p>
+                Parents should avoid using fear-based language during exams. Statements like “This will
+                decide your whole life” can increase pressure. Supportive language helps more:
+                “Do your best, we are with you.”
+              </p>
+
+              <h3>When to seek help</h3>
+              <p>
+                If exam stress causes repeated panic, crying, sleeplessness, self-doubt, avoidance,
+                anger, or physical symptoms, professional counselling can help. Early support can make
+                exam preparation healthier and more effective.
+              </p>
             </div>
           </div>
-        </div>
-      </div>
-    </header>
+        </article>
 
-    <div class="clearfix"></div>
-    <div id="content" class="elementor-menu-anchor"></div>
+        <article class="blog-post" id="board-exams">
+          <div class="blog-content">
+            <div class="meta">
+              <span>By Curesia</span>
+              <span>February 17, 2026</span>
+              <span>Students • Exams • Mental Health</span>
+            </div>
 
-    <div class="content-wrap">
-      <div id="primary" class="content-area">
-        <div id="main" class="site-main" role="main">
-          <div class="container-inner">
-            <div id="blog-section">
-              <div class="container">
-                <div class="row">
-                  <div id="post-wrapper" class="col-md-8">
-                    <article
-                      id="post-47"
-                      class="post-47 post type-post status-publish format-standard has-post-thumbnail hentry category-blog"
-                    >
-                      <div class="blog-post">
-                        <div class="blog-image-wrapper">
-                          <div class="image">
-                            <a
-                              href="https://blog.curesiahealth.com/how-stress-affects-memory-during-exams/"
-                              rel="bookmark"
-                              ><img
-                                width="612"
-                                height="408"
-                                src="https://blog.curesiahealth.com/wp-content/uploads/2026/02/anxious-teenage-student-sitting-examination-in-school-hall.jpg"
-                                class="attachment-full size-full wp-post-image"
-                                alt=""
-                                decoding="async"
-                                srcset="
-                                  https://blog.curesiahealth.com/wp-content/uploads/2026/02/anxious-teenage-student-sitting-examination-in-school-hall.jpg         612w,
-                                  https://blog.curesiahealth.com/wp-content/uploads/2026/02/anxious-teenage-student-sitting-examination-in-school-hall-300x200.jpg 300w
-                                "
-                                sizes="(max-width: 612px) 100vw, 612px"
-                              />
-                            </a>
-                          </div>
-                        </div>
-                        <div class="blog-content-wrapper">
-                          <div class="meta">
-                            <span class="meta-item author"
-                              ><i class="bi bi-person"></i>
-                              <a
-                                class="author-post-url"
-                                href="https://blog.curesiahealth.com/author/curesia/"
-                                >Curesia</a
-                              >
-                            </span>
-                            <span class="meta-item date"
-                              ><i class="bi bi-calendar-check"></i> February 21,
-                              2026
-                            </span>
-                            <span class="meta-item comments"
-                              ><i class="bi bi-chat-dots"></i>
-                              <a
-                                class="post-comments-url"
-                                href="https://blog.curesiahealth.com/how-stress-affects-memory-during-exams/#comments"
-                                >0</a
-                              >
-                            </span>
-                          </div>
-                          <h2 class="entry-title">
-                            <a
-                              href="https://blog.curesiahealth.com/how-stress-affects-memory-during-exams/"
-                              rel="bookmark"
-                              >How Stress Affects Memory During Exams</a
-                            >
-                          </h2>
-                          <div class="content">
-                            <p>
-                              Board exams don’t just test knowledge they test
-                              emotional control. Many students say, “I studied
-                              everything, but I forgot it in the exam hall.” If
-                              this has ever happened to&hellip;
-                            </p>
-                            <div class="read-more">
-                              <a
-                                href="https://blog.curesiahealth.com/how-stress-affects-memory-during-exams/"
-                                >READ MORE +</a
-                              >
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </article>
-                    <article
-                      id="post-38"
-                      class="post-38 post type-post status-publish format-standard hentry category-blog"
-                    >
-                      <div class="blog-post">
-                        <div class="blog-image-wrapper"></div>
-                        <div class="blog-content-wrapper">
-                          <div class="meta">
-                            <span class="meta-item author"
-                              ><i class="bi bi-person"></i>
-                              <a
-                                class="author-post-url"
-                                href="https://blog.curesiahealth.com/author/curesia/"
-                                >Curesia</a
-                              >
-                            </span>
-                            <span class="meta-item date"
-                              ><i class="bi bi-calendar-check"></i> February 17,
-                              2026
-                            </span>
-                            <span class="meta-item comments"
-                              ><i class="bi bi-chat-dots"></i>
-                              <a
-                                class="post-comments-url"
-                                href="https://blog.curesiahealth.com/board-exams-and-mental-health/#comments"
-                                >0</a
-                              >
-                            </span>
-                          </div>
-                          <h2 class="entry-title">
-                            <a
-                              href="https://blog.curesiahealth.com/board-exams-and-mental-health/"
-                              rel="bookmark"
-                              >Board Exams and Mental Health</a
-                            >
-                          </h2>
-                          <div class="content">
-                            <p>
-                              Why Support MattersBoard exams are often seen as a
-                              defining moment in a student’s academic life.
-                              While they are important, the mental and emotional
-                              pressure associated with them is often&hellip;
-                            </p>
-                            <div class="read-more">
-                              <a
-                                href="https://blog.curesiahealth.com/board-exams-and-mental-health/"
-                                >READ MORE +</a
-                              >
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </article>
-                    <article
-                      id="post-30"
-                      class="post-30 post type-post status-publish format-standard has-post-thumbnail hentry category-blog tag-health tag-mental-health tag-stress"
-                    >
-                      <div class="blog-post">
-                        <div class="blog-image-wrapper">
-                          <div class="image">
-                            <a
-                              href="https://blog.curesiahealth.com/seven-warning-signs-mental-health/"
-                              rel="bookmark"
-                              ><img
-                                width="1600"
-                                height="900"
-                                src="https://blog.curesiahealth.com/wp-content/uploads/2026/01/Curesia-Mental-Health-Blog-If-you-see-these-7-signs-it-may-not-be-just-stress—it-could-be-the-start-of-a-mental-illness.jpeg"
-                                class="attachment-full size-full wp-post-image"
-                                alt="Curesia-Mental-Health-Blog-If-you-see-these-7-signs-it-may-not-be-just-stress—it-could-be-the-start-of-a-mental-illness"
-                                decoding="async"
-                                srcset="
-                                  https://blog.curesiahealth.com/wp-content/uploads/2026/01/Curesia-Mental-Health-Blog-If-you-see-these-7-signs-it-may-not-be-just-stress—it-could-be-the-start-of-a-mental-illness.jpeg          1600w,
-                                  https://blog.curesiahealth.com/wp-content/uploads/2026/01/Curesia-Mental-Health-Blog-If-you-see-these-7-signs-it-may-not-be-just-stress—it-could-be-the-start-of-a-mental-illness-300x169.jpeg   300w,
-                                  https://blog.curesiahealth.com/wp-content/uploads/2026/01/Curesia-Mental-Health-Blog-If-you-see-these-7-signs-it-may-not-be-just-stress—it-could-be-the-start-of-a-mental-illness-1024x576.jpeg 1024w,
-                                  https://blog.curesiahealth.com/wp-content/uploads/2026/01/Curesia-Mental-Health-Blog-If-you-see-these-7-signs-it-may-not-be-just-stress—it-could-be-the-start-of-a-mental-illness-768x432.jpeg   768w,
-                                  https://blog.curesiahealth.com/wp-content/uploads/2026/01/Curesia-Mental-Health-Blog-If-you-see-these-7-signs-it-may-not-be-just-stress—it-could-be-the-start-of-a-mental-illness-1536x864.jpeg 1536w
-                                "
-                                sizes="(max-width: 1600px) 100vw, 1600px"
-                              />
-                            </a>
-                          </div>
-                        </div>
-                        <div class="blog-content-wrapper">
-                          <div class="meta">
-                            <span class="meta-item author"
-                              ><i class="bi bi-person"></i>
-                              <a
-                                class="author-post-url"
-                                href="https://blog.curesiahealth.com/author/curesia/"
-                                >Curesia</a
-                              >
-                            </span>
-                            <span class="meta-item date"
-                              ><i class="bi bi-calendar-check"></i> January 16,
-                              2026
-                            </span>
-                            <span class="meta-item comments"
-                              ><i class="bi bi-chat-dots"></i>
-                              <a
-                                class="post-comments-url"
-                                href="https://blog.curesiahealth.com/seven-warning-signs-mental-health/#comments"
-                                >0</a
-                              >
-                            </span>
-                          </div>
-                          <h2 class="entry-title">
-                            <a
-                              href="https://blog.curesiahealth.com/seven-warning-signs-mental-health/"
-                              rel="bookmark"
-                              >अगर ये 7 लक्षण हैं, तो समझ लीजिए ये ‘Stress’
-                              नहीं, मानसिक बीमारी की शुरुआत हो सकती है </a
-                            >
-                          </h2>
-                          <div class="content">
-                            <p>
-                              रांची के एक मध्यमवर्गीय परिवार की कहानी है। सुबह 6
-                              बजे अलाम बजता है, लेकन 35 साल के अमित की आँखें
-                              खुलने का नाम नहीं लेतीं। नींद पूरी नहीं
-                              हुई,&hellip;
-                            </p>
-                            <div class="read-more">
-                              <a
-                                href="https://blog.curesiahealth.com/seven-warning-signs-mental-health/"
-                                >READ MORE +</a
-                              >
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </article>
-                    <article
-                      id="post-22"
-                      class="post-22 post type-post status-publish format-standard has-post-thumbnail hentry category-blog tag-mental-health tag-society tag-stress"
-                    >
-                      <div class="blog-post">
-                        <div class="blog-image-wrapper">
-                          <div class="image">
-                            <a
-                              href="https://blog.curesiahealth.com/why-mental-health-should-not-be-a-stigma/"
-                              rel="bookmark"
-                              ><img
-                                width="2560"
-                                height="1435"
-                                src="https://blog.curesiahealth.com/wp-content/uploads/2026/01/image-scaled.jpg"
-                                class="attachment-full size-full wp-post-image"
-                                alt=""
-                                decoding="async"
-                                srcset="
-                                  https://blog.curesiahealth.com/wp-content/uploads/2026/01/image-scaled.jpg    2560w,
-                                  https://blog.curesiahealth.com/wp-content/uploads/2026/01/image-300x168.jpg    300w,
-                                  https://blog.curesiahealth.com/wp-content/uploads/2026/01/image-1024x574.jpg  1024w,
-                                  https://blog.curesiahealth.com/wp-content/uploads/2026/01/image-768x430.jpg    768w,
-                                  https://blog.curesiahealth.com/wp-content/uploads/2026/01/image-1536x861.jpg  1536w,
-                                  https://blog.curesiahealth.com/wp-content/uploads/2026/01/image-2048x1148.jpg 2048w
-                                "
-                                sizes="(max-width: 2560px) 100vw, 2560px"
-                              />
-                            </a>
-                          </div>
-                        </div>
-                        <div class="blog-content-wrapper">
-                          <div class="meta">
-                            <span class="meta-item author"
-                              ><i class="bi bi-person"></i>
-                              <a
-                                class="author-post-url"
-                                href="https://blog.curesiahealth.com/author/curesia/"
-                                >Curesia</a
-                              >
-                            </span>
-                            <span class="meta-item date"
-                              ><i class="bi bi-calendar-check"></i> January 13,
-                              2026
-                            </span>
-                            <span class="meta-item comments"
-                              ><i class="bi bi-chat-dots"></i>
-                              <a
-                                class="post-comments-url"
-                                href="https://blog.curesiahealth.com/why-mental-health-should-not-be-a-stigma/#comments"
-                                >0</a
-                              >
-                            </span>
-                          </div>
-                          <h2 class="entry-title">
-                            <a
-                              href="https://blog.curesiahealth.com/why-mental-health-should-not-be-a-stigma/"
-                              rel="bookmark"
-                              >Why mental health should not be a stigma?</a
-                            >
-                          </h2>
-                          <div class="content">
-                            <p>
-                              Mental health is an essential part of overall
-                              well-being, just like physical health. Yet, across
-                              societies, it is often surrounded by stigma,
-                              misunderstanding, and silence. This stigma
-                              prevents people from&hellip;
-                            </p>
-                            <div class="read-more">
-                              <a
-                                href="https://blog.curesiahealth.com/why-mental-health-should-not-be-a-stigma/"
-                                >READ MORE +</a
-                              >
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </article>
-                    <nav class="pagination"></nav>
-                  </div>
-                  <div id="sidebar-wrapper" class="col-md-4">
-                    <aside
-                      id="secondary"
-                      class="widget-area"
-                      role="complementary"
-                    >
-                      <div
-                        id="block-2"
-                        class="widget widget_block widget_search"
-                      >
-                        <form
-                          role="search"
-                          method="get"
-                          action="https://blog.curesiahealth.com/"
-                          class="wp-block-search__button-outside wp-block-search__text-button wp-block-search"
-                        >
-                          <label
-                            class="wp-block-search__label"
-                            for="wp-block-search__input-1"
-                            >Search</label
-                          >
-                          <div class="wp-block-search__inside-wrapper">
-                            <input
-                              class="wp-block-search__input"
-                              id="wp-block-search__input-1"
-                              placeholder=""
-                              value=""
-                              type="search"
-                              name="s"
-                              required
-                            /><button
-                              aria-label="Search"
-                              class="wp-block-search__button wp-element-button"
-                              type="submit"
-                            >
-                              Search
-                            </button>
-                          </div>
-                        </form>
-                      </div>
-                      <div id="block-3" class="widget widget_block">
-                        <div class="wp-block-group">
-                          <div
-                            class="wp-block-group__inner-container is-layout-flow wp-block-group-is-layout-flow"
-                          >
-                            <h2 class="wp-block-heading">Recent Posts</h2>
-                            <ul
-                              class="wp-block-latest-posts__list wp-block-latest-posts"
-                            >
-                              <li>
-                                <a
-                                  class="wp-block-latest-posts__post-title"
-                                  href="https://blog.curesiahealth.com/how-stress-affects-memory-during-exams/"
-                                  >How Stress Affects Memory During Exams</a
-                                >
-                              </li>
-                              <li>
-                                <a
-                                  class="wp-block-latest-posts__post-title"
-                                  href="https://blog.curesiahealth.com/board-exams-and-mental-health/"
-                                  >Board Exams and Mental Health</a
-                                >
-                              </li>
-                              <li>
-                                <a
-                                  class="wp-block-latest-posts__post-title"
-                                  href="https://blog.curesiahealth.com/seven-warning-signs-mental-health/"
-                                  >अगर ये 7 लक्षण हैं, तो समझ लीजिए ये ‘Stress’
-                                  नहीं, मानसिक बीमारी की शुरुआत हो सकती है </a
-                                >
-                              </li>
-                              <li>
-                                <a
-                                  class="wp-block-latest-posts__post-title"
-                                  href="https://blog.curesiahealth.com/why-mental-health-should-not-be-a-stigma/"
-                                  >Why mental health should not be a stigma?</a
-                                >
-                              </li>
-                            </ul>
-                          </div>
-                        </div>
-                      </div>
-                      <div id="block-4" class="widget widget_block">
-                        <div class="wp-block-group">
-                          <div
-                            class="wp-block-group__inner-container is-layout-flow wp-block-group-is-layout-flow"
-                          >
-                            <h2 class="wp-block-heading">Recent Comments</h2>
-                            <div class="no-comments wp-block-latest-comments">
-                              No comments to show.
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </aside>
-                    <!-- #secondary -->
-                  </div>
-                </div>
+            <h2 class="entry-title">Board Exams and Mental Health</h2>
+
+            <p class="excerpt">
+              Board exams are often seen as a defining moment in a student’s academic life.
+              This article explains why emotional support matters during exam season.
+            </p>
+
+            <button class="read-toggle" type="button">READ FULL ARTICLE +</button>
+
+            <div class="full-article">
+              <p>
+                Board exams are important, but they should not become a threat to a student’s emotional
+                health. Many students carry pressure from school, family, relatives, society, and their
+                own expectations. This pressure can affect concentration, sleep, motivation, and confidence.
+              </p>
+
+              <h3>The emotional side of board exams</h3>
+              <p>
+                Students often feel that their marks will decide their future, respect, and identity.
+                This belief creates fear. The student may start studying for long hours without rest,
+                but the quality of learning may actually reduce.
+              </p>
+
+              <h3>Warning signs parents should notice</h3>
+              <ul>
+                <li>Sudden withdrawal from family or friends</li>
+                <li>Frequent crying or anger</li>
+                <li>Loss of sleep or excessive sleeping</li>
+                <li>Fear of going to school or exam centre</li>
+                <li>Repeated negative statements about self-worth</li>
+                <li>Extreme fear after small mistakes</li>
+              </ul>
+
+              <h3>Healthy exam preparation</h3>
+              <p>
+                A healthy study plan includes revision, practice, rest, food, sleep, movement, and emotional
+                reassurance. Students should not be expected to behave like machines. A calm mind performs
+                better than an exhausted mind.
+              </p>
+
+              <div class="note-box">
+                Marks are important, but the student is more important than the marks.
               </div>
+
+              <h3>What schools and families can do</h3>
+              <p>
+                Schools and families should talk openly about stress. Students should be encouraged to ask
+                questions, take breaks, and discuss fear without shame. Counselling support can be very useful
+                during exam months.
+              </p>
+
+              <h3>Final thought</h3>
+              <p>
+                Board exams are a phase, not the full definition of life. With proper support, students can
+                prepare seriously without losing emotional balance.
+              </p>
             </div>
           </div>
+        </article>
+
+        <article class="blog-post" id="warning-signs">
+          <div class="blog-image">
+            <img src="https://blog.curesiahealth.com/wp-content/uploads/2026/01/Curesia-Mental-Health-Blog-If-you-see-these-7-signs-it-may-not-be-just-stress—it-could-be-the-start-of-a-mental-illness.jpeg" alt="Seven warning signs of mental health concerns" />
+          </div>
+
+          <div class="blog-content">
+            <div class="meta">
+              <span>By Curesia</span>
+              <span>January 16, 2026</span>
+              <span>Mental Health • Stress • Awareness</span>
+            </div>
+
+            <h2 class="entry-title">Seven Warning Signs That Stress May Need Attention</h2>
+
+            <p class="excerpt">
+              Stress is common, but some signs may indicate a deeper mental health concern.
+              This article explains warning signs that should not be ignored.
+            </p>
+
+            <button class="read-toggle" type="button">READ FULL ARTICLE +</button>
+
+            <div class="full-article">
+              <p>
+                Stress is a normal part of life. Work pressure, family responsibilities, studies,
+                relationships, health issues, and financial concerns can all create stress. But when stress
+                continues for a long time or starts changing daily life, it should not be ignored.
+              </p>
+
+              <h3>1. Sleep changes</h3>
+              <p>
+                Difficulty sleeping, waking up repeatedly, sleeping too much, or feeling tired even after
+                sleep can be a sign that the mind is under pressure.
+              </p>
+
+              <h3>2. Loss of interest</h3>
+              <p>
+                When a person stops enjoying activities they once liked, it may indicate emotional exhaustion
+                or low mood.
+              </p>
+
+              <h3>3. Irritability or anger</h3>
+              <p>
+                Constant irritation, anger over small issues, or emotional outbursts may be signs of inner
+                distress.
+              </p>
+
+              <h3>4. Social withdrawal</h3>
+              <p>
+                Avoiding friends, family, calls, messages, or social situations can indicate that a person
+                is struggling emotionally.
+              </p>
+
+              <h3>5. Physical symptoms</h3>
+              <p>
+                Stress can appear as headache, stomach discomfort, body pain, tiredness, chest tightness,
+                or breathing discomfort.
+              </p>
+
+              <h3>6. Negative thoughts</h3>
+              <p>
+                Repeated thoughts like “I am not good enough,” “Nothing will improve,” or “I cannot handle this”
+                should be taken seriously.
+              </p>
+
+              <h3>7. Difficulty functioning</h3>
+              <p>
+                If stress starts affecting study, work, family life, hygiene, eating, or sleep, professional
+                help may be needed.
+              </p>
+
+              <div class="note-box">
+                Seeking help is not weakness. It is a responsible step toward healing.
+              </div>
+
+              <h3>When to consult</h3>
+              <p>
+                If these signs continue for more than a few weeks, become intense, or affect daily life,
+                speaking to a mental health professional can help.
+              </p>
+            </div>
+          </div>
+        </article>
+
+        <article class="blog-post" id="mental-health-stigma">
+          <div class="blog-image">
+            <img src="https://blog.curesiahealth.com/wp-content/uploads/2026/01/image-scaled.jpg" alt="Mental health awareness" />
+          </div>
+
+          <div class="blog-content">
+            <div class="meta">
+              <span>By Curesia</span>
+              <span>January 13, 2026</span>
+              <span>Mental Health • Society • Awareness</span>
+            </div>
+
+            <h2 class="entry-title">Why Mental Health Should Not Be a Stigma?</h2>
+
+            <p class="excerpt">
+              Mental health is an essential part of overall well-being, just like physical health.
+              Yet it is often surrounded by silence and misunderstanding.
+            </p>
+
+            <button class="read-toggle" type="button">READ FULL ARTICLE +</button>
+
+            <div class="full-article">
+              <p>
+                Mental health is part of human health. Just as people visit a doctor for fever, pain, diabetes,
+                or blood pressure, they may also need support for anxiety, depression, trauma, stress, grief,
+                relationship issues, or emotional confusion.
+              </p>
+
+              <h3>Why stigma exists</h3>
+              <p>
+                Stigma often comes from lack of awareness. Many people still believe that mental health problems
+                are a sign of weakness, poor willpower, or personal failure. These ideas are incorrect and harmful.
+              </p>
+
+              <h3>How stigma harms people</h3>
+              <p>
+                When society judges mental health concerns, people hide their pain. They delay treatment, avoid
+                counselling, and suffer silently. This can make the condition worse.
+              </p>
+
+              <h3>Mental health care is normal care</h3>
+              <p>
+                Therapy and counselling help people understand thoughts, emotions, behaviour, relationships,
+                stress patterns, and coping skills. It is not only for crisis. It is also for growth, clarity,
+                and emotional strength.
+              </p>
+
+              <h3>What families can do</h3>
+              <ul>
+                <li>Listen without judgement</li>
+                <li>Avoid blaming or shaming language</li>
+                <li>Encourage professional help when needed</li>
+                <li>Respect privacy</li>
+                <li>Support treatment consistently</li>
+              </ul>
+
+              <div class="note-box">
+                A person is not weak because they need help. A person is human because they need support.
+              </div>
+
+              <h3>Building a stigma-free society</h3>
+              <p>
+                We can reduce stigma by speaking openly, using respectful language, educating children,
+                supporting people in distress, and treating mental health care as a normal part of life.
+              </p>
+
+              <h3>Final thought</h3>
+              <p>
+                Mental health should not be hidden in silence. With awareness, compassion, and timely care,
+                people can heal and live better.
+              </p>
+            </div>
+          </div>
+        </article>
+
+      </section>
+
+      <aside class="sidebar">
+        <div class="widget">
+          <h2 class="widget-title">Search</h2>
+          <form class="search-form" onsubmit="return searchArticles(event)">
+            <input id="searchInput" type="search" placeholder="Search this page..." required />
+            <button type="submit">Search</button>
+          </form>
         </div>
+
+        <div class="widget">
+          <h2 class="widget-title">Recent Posts</h2>
+          <ul>
+            <li><a href="#stress-memory">How Stress Affects Memory During Exams</a></li>
+            <li><a href="#board-exams">Board Exams and Mental Health</a></li>
+            <li><a href="#warning-signs">Seven Warning Signs That Stress May Need Attention</a></li>
+            <li><a href="#mental-health-stigma">Why Mental Health Should Not Be a Stigma?</a></li>
+          </ul>
+        </div>
+
+        <div class="widget">
+          <h2 class="widget-title">Archive List</h2>
+          <ul>
+            <li><a href="#stress-memory">February 2026</a></li>
+            <li><a href="#warning-signs">January 2026</a></li>
+          </ul>
+        </div>
+
+        <div class="widget">
+          <h2 class="widget-title">Tags</h2>
+          <div class="tag-cloud">
+            <a href="#stress-memory">Health</a>
+            <a href="#mental-health-stigma">Mental Health</a>
+            <a href="#mental-health-stigma">Society</a>
+            <a href="#warning-signs">Stress</a>
+          </div>
+        </div>
+
+        <div class="widget">
+          <h2 class="widget-title">Categories</h2>
+          <ul>
+            <li><a href="#articles">Blog</a></li>
+          </ul>
+        </div>
+      </aside>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-widgets">
+      <div class="container footer-grid">
+        <aside>
+          <h2>Recent Posts</h2>
+          <ul>
+            <li><a href="#stress-memory">How Stress Affects Memory During Exams</a></li>
+            <li><a href="#board-exams">Board Exams and Mental Health</a></li>
+            <li><a href="#warning-signs">Seven Warning Signs That Stress May Need Attention</a></li>
+            <li><a href="#mental-health-stigma">Why Mental Health Should Not Be a Stigma?</a></li>
+          </ul>
+        </aside>
+
+        <aside>
+          <h2>Archive List</h2>
+          <ul>
+            <li><a href="#stress-memory">February 2026</a></li>
+            <li><a href="#warning-signs">January 2026</a></li>
+          </ul>
+        </aside>
+
+        <aside>
+          <h2>Tags</h2>
+          <div class="tag-cloud">
+            <a href="#stress-memory">Health</a>
+            <a href="#mental-health-stigma">Mental Health</a>
+            <a href="#mental-health-stigma">Society</a>
+            <a href="#warning-signs">Stress</a>
+          </div>
+        </aside>
+
+        <aside>
+          <h2>Categories</h2>
+          <ul>
+            <li><a href="#articles">Blog</a></li>
+          </ul>
+        </aside>
       </div>
     </div>
-    <!-- Begin Footer Section -->
-    <footer
-      id="footer"
-      class="legacy-wellness-coach-footer"
-      itemscope
-      itemtype="https://schema.org/WPFooter"
-    >
-      <div class="footer-widgets-wrapper">
-        <div class="container">
-          <div class="row">
-            <!-- Recent Posts -->
-            <aside
-              id="recent-posts"
-              class="footer-1 widget widget_recent_posts col-12 col-md-6 col-lg-3 col-xl-3"
-              role="complementary"
-              aria-label="1stsidebar"
-            >
-              <h2 class="widget-title">Recent Posts</h2>
-              <ul>
-                <li>
-                  <a
-                    href="https://blog.curesiahealth.com/how-stress-affects-memory-during-exams/"
-                    >How Stress Affects Memory During Exams</a
-                  >
-                </li>
-                <li>
-                  <a
-                    href="https://blog.curesiahealth.com/board-exams-and-mental-health/"
-                    >Board Exams and Mental Health</a
-                  >
-                </li>
-                <li>
-                  <a
-                    href="https://blog.curesiahealth.com/seven-warning-signs-mental-health/"
-                    >अगर ये 7 लक्षण हैं, तो समझ लीजिए ये ‘Stress’ नहीं, मानसिक
-                    बीमारी की शुरुआत हो सकती है </a
-                  >
-                </li>
-                <li>
-                  <a
-                    href="https://blog.curesiahealth.com/why-mental-health-should-not-be-a-stigma/"
-                    >Why mental health should not be a stigma?</a
-                  >
-                </li>
-              </ul>
-            </aside>
-            <!-- Archive -->
-            <aside
-              id="archive"
-              class="footer-2 widget widget_archive col-12 col-md-6 col-lg-3 col-xl-3"
-              role="complementary"
-              aria-label="2ndsidebar"
-            >
-              <h2 class="widget-title">Archive List</h2>
-              <ul>
-                <li>
-                  <a href="https://blog.curesiahealth.com/2026/02/"
-                    >February 2026</a
-                  >
-                </li>
-                <li>
-                  <a href="https://blog.curesiahealth.com/2026/01/"
-                    >January 2026</a
-                  >
-                </li>
-              </ul>
-            </aside>
-            <!-- Tags Widget -->
-            <aside
-              id="tags"
-              class="footer-3 widget widget_tags col-12 col-md-6 col-lg-3 col-xl-3"
-              role="complementary"
-              aria-label="3rdsidebar"
-            >
-              <h2 class="widget-title">Tags</h2>
-              <div class="tag-cloud">
-                <a
-                  href="https://blog.curesiahealth.com/tag/health/"
-                  class="tag-cloud-link tag-link-7 tag-link-position-1"
-                  style="font-size: 8pt"
-                  aria-label="Health (1 item)"
-                  >Health</a
-                >
-                <a
-                  href="https://blog.curesiahealth.com/tag/mental-health/"
-                  class="tag-cloud-link tag-link-4 tag-link-position-2"
-                  style="font-size: 22pt"
-                  aria-label="mental health (2 items)"
-                  >mental health</a
-                >
-                <a
-                  href="https://blog.curesiahealth.com/tag/society/"
-                  class="tag-cloud-link tag-link-6 tag-link-position-3"
-                  style="font-size: 8pt"
-                  aria-label="society (1 item)"
-                  >society</a
-                >
-                <a
-                  href="https://blog.curesiahealth.com/tag/stress/"
-                  class="tag-cloud-link tag-link-5 tag-link-position-4"
-                  style="font-size: 22pt"
-                  aria-label="stress (2 items)"
-                  >stress</a
-                >
-              </div>
-            </aside>
-            <!-- Categories -->
-            <aside
-              id="categories"
-              class="footer-4 widget widget_categories col-12 col-md-6 col-lg-3 col-xl-3"
-              role="complementary"
-              aria-label="4thsidebar"
-            >
-              <h2 class="widget-title">Categories</h2>
-              <ul>
-                <li class="cat-item cat-item-1">
-                  <a href="https://blog.curesiahealth.com/category/blog/"
-                    >Blog</a
-                  >
-                </li>
-              </ul>
-            </aside>
-          </div>
-        </div>
-      </div>
-      <div class="footer-copyright">
-        <div class="container copyrights">
-          <div class="row">
-            <div class="footer-copyrights-wrapper">
-              <div class="row">
-                <div class="copyrights">
-                  <p>
-                    © 2026 Curesia | Powered by DigiCrow
-                    <span class="copyrg-link"
-                      ><a
-                        href="https://www.legacytheme.net/products/legacy-wellness-coach"
-                        target="_blank"
-                        rel="nofollow noopener"
-                      >
-                        | Legacy Wellness Coach WordPress Theme</a
-                      >
-                      by Legacy Themes</span
-                    >
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="scrl-to-top">
-        <a id="scrolltop" class="btntoTop"
-          ><i class="bi bi-arrow-up-short"></i
-        ></a>
-      </div>
-    </footer>
-    <script type="speculationrules">
-      {
-        "prefetch": [
-          {
-            "source": "document",
-            "where": {
-              "and": [
-                { "href_matches": "/*" },
-                {
-                  "not": {
-                    "href_matches": [
-                      "/wp-*.php",
-                      "/wp-admin/*",
-                      "/wp-content/uploads/*",
-                      "/wp-content/*",
-                      "/wp-content/plugins/*",
-                      "/wp-content/themes/legacy-wellness-coach/*",
-                      "/*\\?(.+)"
-                    ]
-                  }
-                },
-                { "not": { "selector_matches": "a[rel~=\"nofollow\"]" } },
-                {
-                  "not": { "selector_matches": ".no-prefetch, .no-prefetch a" }
-                }
-              ]
-            },
-            "eagerness": "conservative"
-          }
-        ]
-      }
-    </script>
-    <script
-      type="text/javascript"
-      id="hostinger-reach-subscription-block-view-js-extra"
-    >
-      /* <![CDATA[ */
-      var hostinger_reach_subscription_block_data = {
-        endpoint:
-          "https://blog.curesiahealth.com/wp-json/hostinger-reach/v1/contact",
-        nonce: "d99bd3cbef",
-        translations: {
-          thanks: "Thanks for subscribing.",
-          error: "Something went wrong. Please try again.",
-        },
-      };
-      //# sourceURL=hostinger-reach-subscription-block-view-js-extra
-      /* ]]> */
-    </script>
-    <script
-      type="text/javascript"
-      src="https://blog.curesiahealth.com/wp-content/plugins/hostinger-reach/frontend/dist/blocks/subscription-view.js?ver=1771822822"
-      id="hostinger-reach-subscription-block-view-js"
-    ></script>
-    <script
-      type="text/javascript"
-      src="https://blog.curesiahealth.com/wp-content/themes/legacy-wellness-coach/js/jquery.easing.1.3.js?ver=1.3"
-      id="jquery-easing-js"
-    ></script>
-    <script
-      type="text/javascript"
-      src="https://blog.curesiahealth.com/wp-content/themes/legacy-wellness-coach/js/ResizeSensor.js?ver=1.0.0"
-      id="resize-sensor-js"
-    ></script>
-    <script
-      type="text/javascript"
-      src="https://blog.curesiahealth.com/wp-content/themes/legacy-wellness-coach/js/jquery.mCustomScrollbar.js?ver=3.1.5"
-      id="m-customscrollbar-js-js"
-    ></script>
-    <script
-      type="text/javascript"
-      src="https://blog.curesiahealth.com/wp-content/themes/legacy-wellness-coach/js/bootstrap.min.js?ver=5.3.3"
-      id="bootstrap-js"
-    ></script>
-    <script
-      type="text/javascript"
-      src="https://blog.curesiahealth.com/wp-includes/js/dist/dom-ready.min.js?ver=f77871ff7694fffea381"
-      id="wp-dom-ready-js"
-    ></script>
-    <script
-      type="text/javascript"
-      src="https://blog.curesiahealth.com/wp-includes/js/dist/hooks.min.js?ver=dd5603f07f9220ed27f1"
-      id="wp-hooks-js"
-    ></script>
-    <script
-      type="text/javascript"
-      src="https://blog.curesiahealth.com/wp-includes/js/dist/i18n.min.js?ver=c26c3dc7bed366793375"
-      id="wp-i18n-js"
-    ></script>
-    <script type="text/javascript" id="wp-i18n-js-after">
-      /* <![CDATA[ */
-      wp.i18n.setLocaleData({ "text direction\u0004ltr": ["ltr"] });
-      //# sourceURL=wp-i18n-js-after
-      /* ]]> */
-    </script>
-    <script
-      type="text/javascript"
-      src="https://blog.curesiahealth.com/wp-includes/js/dist/a11y.min.js?ver=cb460b4676c94bd228ed"
-      id="wp-a11y-js"
-    ></script>
-    <script
-      type="text/javascript"
-      src="https://blog.curesiahealth.com/wp-includes/js/underscore.min.js?ver=1.13.7"
-      id="underscore-js"
-    ></script>
-    <script
-      type="text/javascript"
-      src="https://blog.curesiahealth.com/wp-includes/js/customize-base.min.js?ver=6.9.4"
-      id="customize-base-js"
-    ></script>
-    <script
-      type="text/javascript"
-      src="https://blog.curesiahealth.com/wp-includes/js/customize-preview.min.js?ver=6.9.4"
-      id="customize-preview-js"
-    ></script>
-    <script
-      type="text/javascript"
-      src="https://blog.curesiahealth.com/wp-content/themes/legacy-wellness-coach/js/main.js?ver=1.0"
-      id="legacy-wellness-coach-main-js-js"
-    ></script>
-    <script
-      type="text/javascript"
-      src="https://blog.curesiahealth.com/wp-content/themes/legacy-wellness-coach/js/owl.carousel.js?ver=2.3.4"
-      id="owl-carouselscript-js"
-    ></script>
-    <script id="wp-emoji-settings" type="application/json">
-      {
-        "baseUrl": "https://s.w.org/images/core/emoji/17.0.2/72x72/",
-        "ext": ".png",
-        "svgUrl": "https://s.w.org/images/core/emoji/17.0.2/svg/",
-        "svgExt": ".svg",
-        "source": {
-          "concatemoji": "https://blog.curesiahealth.com/wp-includes/js/wp-emoji-release.min.js?ver=6.9.4"
-        }
-      }
-    </script>
-    <script type="module">
-      /* <![CDATA[ */
-      /*! This file is auto-generated */
-      const a = JSON.parse(
-          document.getElementById("wp-emoji-settings").textContent,
-        ),
-        o = ((window._wpemojiSettings = a), "wpEmojiSettingsSupports"),
-        s = ["flag", "emoji"];
-      function i(e) {
-        try {
-          var t = { supportTests: e, timestamp: new Date().valueOf() };
-          sessionStorage.setItem(o, JSON.stringify(t));
-        } catch (e) {}
-      }
-      function c(e, t, n) {
-        (e.clearRect(0, 0, e.canvas.width, e.canvas.height),
-          e.fillText(t, 0, 0));
-        t = new Uint32Array(
-          e.getImageData(0, 0, e.canvas.width, e.canvas.height).data,
-        );
-        (e.clearRect(0, 0, e.canvas.width, e.canvas.height),
-          e.fillText(n, 0, 0));
-        const a = new Uint32Array(
-          e.getImageData(0, 0, e.canvas.width, e.canvas.height).data,
-        );
-        return t.every((e, t) => e === a[t]);
-      }
-      function p(e, t) {
-        (e.clearRect(0, 0, e.canvas.width, e.canvas.height),
-          e.fillText(t, 0, 0));
-        var n = e.getImageData(16, 16, 1, 1);
-        for (let e = 0; e < n.data.length; e++) if (0 !== n.data[e]) return !1;
-        return !0;
-      }
-      function u(e, t, n, a) {
-        switch (t) {
-          case "flag":
-            return n(
-              e,
-              "\ud83c\udff3\ufe0f\u200d\u26a7\ufe0f",
-              "\ud83c\udff3\ufe0f\u200b\u26a7\ufe0f",
-            )
-              ? !1
-              : !n(
-                  e,
-                  "\ud83c\udde8\ud83c\uddf6",
-                  "\ud83c\udde8\u200b\ud83c\uddf6",
-                ) &&
-                  !n(
-                    e,
-                    "\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc65\udb40\udc6e\udb40\udc67\udb40\udc7f",
-                    "\ud83c\udff4\u200b\udb40\udc67\u200b\udb40\udc62\u200b\udb40\udc65\u200b\udb40\udc6e\u200b\udb40\udc67\u200b\udb40\udc7f",
-                  );
-          case "emoji":
-            return !a(e, "\ud83e\u1fac8");
-        }
-        return !1;
-      }
-      function f(e, t, n, a) {
-        let r;
-        const o = (r =
-            "undefined" != typeof WorkerGlobalScope &&
-            self instanceof WorkerGlobalScope
-              ? new OffscreenCanvas(300, 150)
-              : document.createElement("canvas")).getContext("2d", {
-            willReadFrequently: !0,
-          }),
-          s = ((o.textBaseline = "top"), (o.font = "600 32px Arial"), {});
-        return (
-          e.forEach((e) => {
-            s[e] = t(o, e, n, a);
-          }),
-          s
-        );
-      }
-      function r(e) {
-        var t = document.createElement("script");
-        ((t.src = e), (t.defer = !0), document.head.appendChild(t));
-      }
-      ((a.supports = { everything: !0, everythingExceptFlag: !0 }),
-        new Promise((t) => {
-          let n = (function () {
-            try {
-              var e = JSON.parse(sessionStorage.getItem(o));
-              if (
-                "object" == typeof e &&
-                "number" == typeof e.timestamp &&
-                new Date().valueOf() < e.timestamp + 604800 &&
-                "object" == typeof e.supportTests
-              )
-                return e.supportTests;
-            } catch (e) {}
-            return null;
-          })();
-          if (!n) {
-            if (
-              "undefined" != typeof Worker &&
-              "undefined" != typeof OffscreenCanvas &&
-              "undefined" != typeof URL &&
-              URL.createObjectURL &&
-              "undefined" != typeof Blob
-            )
-              try {
-                var e =
-                    "postMessage(" +
-                    f.toString() +
-                    "(" +
-                    [
-                      JSON.stringify(s),
-                      u.toString(),
-                      c.toString(),
-                      p.toString(),
-                    ].join(",") +
-                    "));",
-                  a = new Blob([e], { type: "text/javascript" });
-                const r = new Worker(URL.createObjectURL(a), {
-                  name: "wpTestEmojiSupports",
-                });
-                return void (r.onmessage = (e) => {
-                  (i((n = e.data)), r.terminate(), t(n));
-                });
-              } catch (e) {}
-            i((n = f(s, u, c, p)));
-          }
-          t(n);
-        }).then((e) => {
-          for (const n in e)
-            ((a.supports[n] = e[n]),
-              (a.supports.everything = a.supports.everything && a.supports[n]),
-              "flag" !== n &&
-                (a.supports.everythingExceptFlag =
-                  a.supports.everythingExceptFlag && a.supports[n]));
-          var t;
-          ((a.supports.everythingExceptFlag =
-            a.supports.everythingExceptFlag && !a.supports.flag),
-            a.supports.everything ||
-              ((t = a.source || {}).concatemoji
-                ? r(t.concatemoji)
-                : t.wpemoji && t.twemoji && (r(t.twemoji), r(t.wpemoji))));
-        }));
-      //# sourceURL=https://blog.curesiahealth.com/wp-includes/js/wp-emoji-loader.min.js
-      /* ]]> */
-    </script>
-  </body>
 
-  <!-- Page cached by LiteSpeed Cache 7.7 on 2026-04-28 01:45:39 -->
+    <div class="copyright">
+      <div class="container">
+        © 2026 Curesia | Powered by DigiCrow
+      </div>
+    </div>
+  </footer>
+
+  <a class="scrolltop" href="#top" aria-label="Scroll to top">↑</a>
+
+  <script>
+    document.querySelectorAll(".read-toggle").forEach(function (button) {
+      button.addEventListener("click", function () {
+        const article = button.nextElementSibling;
+        article.classList.toggle("open");
+
+        if (article.classList.contains("open")) {
+          button.textContent = "HIDE ARTICLE -";
+        } else {
+          button.textContent = "READ FULL ARTICLE +";
+        }
+      });
+    });
+
+    function searchArticles(event) {
+      event.preventDefault();
+
+      const query = document.getElementById("searchInput").value.toLowerCase().trim();
+      const posts = document.querySelectorAll(".blog-post");
+
+      let firstMatch = null;
+
+      posts.forEach(function (post) {
+        const text = post.innerText.toLowerCase();
+        if (text.includes(query)) {
+          post.style.display = "";
+          if (!firstMatch) firstMatch = post;
+        } else {
+          post.style.display = "none";
+        }
+      });
+
+      if (firstMatch) {
+        firstMatch.scrollIntoView({ behavior: "smooth", block: "start" });
+      }
+
+      return false;
+    }
+  </script>
+</body>
 </html>
